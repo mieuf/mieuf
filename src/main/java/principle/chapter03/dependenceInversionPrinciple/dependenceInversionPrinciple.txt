@@ -1,0 +1,8 @@
+依赖倒置原则(Dependence Inversion Principle DIP)
+  High level modules should not depend upon low level modules.Both should depend
+  upon adstractions. Abstractions should not depend upon details.Details should depend
+  upon adstractions.
+  意即:高层模块不应该依赖底层模块，两者应该都依赖其抽象;
+           抽象不应该依赖细节,细节应该依赖抽象。
+ 
+ 依赖的三种方式:1.构造函数传递依赖对象;2.setter方法传递依赖对象;3.接口声明依赖对象(面向接口编程)。

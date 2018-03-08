@@ -1,0 +1,7 @@
+接口隔离原则:
+    clients should not be forced to depend upon interfaces that they don't use.
+    (客户端不应该依赖它不需要的接口)
+    the dependency of one class to another one should depend on the smallerst possible interface.
+    (类间的依赖关系应该建立在最小的接口上)
+  含义:
+   1.接口要尽量小,不能违反单一原则;2.接口要高内聚;3.定制服务,为某业务单独提供服务。
