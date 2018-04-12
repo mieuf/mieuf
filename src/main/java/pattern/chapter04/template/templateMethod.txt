@@ -1,0 +1,15 @@
+模板方法模式:(Template method pattern)
+	Define the skeleton of an algorithm in an operation, deferring
+	some steps to subclasses,Template Method lets subclass redefine 
+	certain steps of an algorithm without changing the algorithm's structure.
+	(定义要给操作中的算法的框架，而将一些步骤延迟到子类中。使得子类可以不改变一个算法
+	的结构即可重新定义该算法的某些特定步骤)
+	
+基本方法:
+       也即是基本操作,由子类实现,并且在模板方法中使用。
+模板方法:
+       优点:封装不变部分，扩展可变部分;提取公共部分代码，便于维护;行为由父类控制，子类实现
+       缺点:实现类的行为影响了父类的结果，也即对父类产生了影响，提高阅读代码的难度
+	可以有一个或几个,一般是一个具体方法，也即是一个框架,
+	实现对基本方法的调用,完成固定的逻辑。
+	
